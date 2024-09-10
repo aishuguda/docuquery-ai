@@ -1,0 +1,25 @@
+{
+  "name": "docuquery-ai",
+  "version": "1.0.0",
+  "description": "AI-powered document querying and analysis platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "start:backend": "npm run start -w packages/backend",
+    "start:frontend": "npm run start -w packages/frontend",
+    "dev": "npm run dev --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "keywords": [
+    "document",
+    "query",
+    "ai",
+    "langchain",
+    "nlp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*"
+  ]
+}
